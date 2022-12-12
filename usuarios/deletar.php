@@ -1,7 +1,8 @@
 <?php
 session_start();
-if(($_GET['y']=="d")){
 
+if(($_GET['y']=="d")){
+   
     include("../conexao.php");
 
     $id = $_SESSION['id'];

@@ -122,7 +122,7 @@ require_once 'conexao.php';
 		  <p class="lead">O Design Start mudará essa situação. No nosso site você terá milhares de modelos gratuitos para deixar sua apresentação muito mais interesante!</p>
 		</div>
 		<div class="col-md-5">
-		  <img src="img/undraw_pitching_re_fpgk.svg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="650" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+		  <img src="img/2.svg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="650" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
 	
 		</div>
 	  </div>
@@ -148,7 +148,7 @@ require_once 'conexao.php';
 		  <p class="lead">Primeiro se você não é cadastrado, clique em "Cadastre-se" e responda todos os espaços. Depois clique em "Postar", escolha seu slide, a foto que vai ficar visível, uma descrição e um título e clique em "Postar". Pronto!</p>
 		</div>
 		<div class="col-md-5">
-		  <img src="img/undraw_posting_photo_re_plk8.svg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="650" height="500"  role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+		  <img src="img/1.svg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="650" height="500"  role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
 	
 		</div>
 	  </div>

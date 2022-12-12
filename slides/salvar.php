@@ -20,7 +20,7 @@ if ($_POST['id'] == "") {
 	#salva o arquivo na pasta de uploads
 	move_uploaded_file($_FILES['foto']['tmp_name'], $foto );
 	move_uploaded_file($_FILES['arquivo']['tmp_name'], $arquivo);
-	move_uploaded_file($_FILES['arquivo']['tmp_name'], $arquivopdf);
+	move_uploaded_file($_FILES['arquivopdf']['tmp_name'], $arquivopdf);
 
 
 	$sql = "INSERT INTO slides(titulo,descricao,foto,arquivo,arquivopdf,usuario_id)
@@ -84,7 +84,7 @@ if ($_POST['id'] == "") {
 	
 	if ($_FILES['arquivopdf']['name'] != ""){
 		#atualiza o arquivo
-		$foto    = "../uploads/".$_FILES['arquivopdf']['name'];
+		$arquivopdf   = "../uploads/".$_FILES['arquivopdf']['name'];
 		#salva o arquivo novo na pasta de uploads
 		move_uploaded_file($_FILES['arquivopdf']['tmp_name'], $arquivopdf);
 		

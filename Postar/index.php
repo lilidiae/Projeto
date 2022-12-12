@@ -37,7 +37,7 @@ if (isset($_GET['id'])) {
 <body>
     <div class="container">
         <div class="form-image">
-            <img src="img/undraw_access_account_re_8spm.svg" alt="">
+            <img src="../img/1.svg" alt="">
         </div>
         <div class="form">
             <form action="../slides/salvar.php" method="POST" enctype="multipart/form-data">

@@ -1,4 +1,9 @@
 <link rel="stylesheet" href="../css/style.css">
+<script>
+	funcao incorreto(){
+		alert("Senha Incorreta, tente novamente");
+	}
+</script>
 <?php
 session_start();
 
@@ -22,7 +27,7 @@ $rw = $stmt->fetch(\PDO::FETCH_ASSOC);
 
 if ($rw == null) {
 	#se nao encontrou ninguem com aquele email e senha
-	$_SESSION["msg"] = "<div class='input-group'>Email ou senha incorreta</div>";
+	$_SESSION["msg"] = "Email ou senha incorreta";
 	#Redireciona para a tela de login
 	Header("Location: ../login/index.php");
 } else {

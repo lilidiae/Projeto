@@ -1,8 +1,13 @@
 <?php
+session_start();
 $logado = $_SESSION['email'];
 ?>
-
-
+<script>
+function certeza()
+{
+alert("Tem certeza que deseja excluir conta?");
+}
+</script>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,10 +26,7 @@ $logado = $_SESSION['email'];
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="usuarios/index.php">Cadastre-se</a>
-                </li>
+              
                 <li class="nav-item">
                   <a class="nav-link text-white" href="dicas/index.php">Dicas</a>
                 </li>
@@ -34,7 +36,7 @@ $logado = $_SESSION['email'];
 			
 				<div class= 'nav-item ' > <a class='nav-link text-white me-auto mb-2 mb-lg-0 '><?php $logado?></a></div>
 				<div class= 'nav-item '> <a class='nav-link text-danger me-auto mb-2 mb-lg-0' href='auth/logout.php'>Sair</a></div>
-			    <div class='nav-item'> <a class='nav-link text-danger me-auto mb-2 mb-lg-0' href='usuarios/deletar.php?y=d'>Excluir conta</a> </div>
+			    <div class='nav-item'> <a class='nav-link text-danger me-auto mb-2 mb-lg-0' href='usuarios/deletar.php?y=d' onclick="certeza()"> Excluir conta</a> </div>
 			
           </div>
         </nav>

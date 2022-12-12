@@ -25,7 +25,7 @@ if ($_POST['id'] == "") {
 	$stmt->execute();
 	$id = $con->lastInsertId();
 
-	header("Location:index.php?msg=1");
+	header("Location:../login/index.php?msg=1");
 } else {
 
 	if ($_POST["senha"] == "") {

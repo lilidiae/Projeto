@@ -1,6 +1,11 @@
 
  <link rel="stylesheet" href="../css/stylen.css">
-
+<script>
+    function certo()
+{
+alert("Cadastrado com sucesso!!");
+}
+</script>
 
 <body>
     <div class="container">
@@ -14,14 +19,7 @@
                         <h1>Cadastre-se</h1>
                     </div>
 
-                    <?php
-                    
-                    if (isset($_GET['msg']) && $_GET['msg'] == 1){
-                        print "<div class='input-box'>Cadastrado com sucesso!</div>";
-                        print "<a href='../login/'>Faça o login</a>";
-                    }
-                    
-                    ?>
+            
                     
                 </div>
 
@@ -52,7 +50,8 @@
                
 
                 <div class="continue-button">
-                    <button>Continuar </button>
+                    <button onclick="certo();">Continuar </button>
+                    
                 </div>
             </form>
         </div>
